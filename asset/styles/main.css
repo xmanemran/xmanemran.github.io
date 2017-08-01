@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    width: 800;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p { 
+    margin: 5
+}
+
+#header {
+    padding-bottom: 20px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.block {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom-color: rgba(119, 119, 119, 0.28);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.cover-photo {
+    width: 800
+}
+
+.cover-photo img {
+    width: 800
+}
+
+
+.profile-photo {
+    width: 200px;
+/*    margin: 0 auto;*/
+/*
+    margin-top: -100px;
+    margin-left: 300px;
+*/
+} 
+
+.profile-photo img{
+    width: 200px;
+    border-radius: 3%
+} 
+
+.summary {
+/*    text-align: center*/
+}
+
+#title-name {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
+#job-title {
+    color: #555;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.short-info {
+    color: #777;
+    padding: 10px;
+} 
+
+.content-title {
+    color: #2c2b3f;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.content {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #777;
+    text-align: justify;
+}
+
+.each-job {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-color: rgba(119, 119, 119, 0.04);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 20;
+    background: rgba(119, 119, 119, 0.01);
+    padding-right: 10px;
+}
+
+.job-line {
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.each-job img {
+    width: 150;
+    height: 150;
+    margin: 20;
+}
+
+.job-position {
+    color: #2c2b3f;
+}
+
+.work-timeline {
+    color: #70707a;
+}
+
+.duration {
+    color: rgba(112,112,122,.5);
+}
+
+.company-name {
+    color: #2c2b3f;
+}
+
+.job-details {
+    margin-top: 20
+}
+
+.skills {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+}
+
+.skill {
+    display: flex;
+    flex: 0 0 47%;
+    padding: 10;
+    flex-direction: column;
+}
+
+.skill-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.skill-name {
+    color: #686871;
+}
+
+.skill-level {
+    color: #70707a;
+}
+
+.skill-range {
+    height: 3px;
+    background-color: #e0dfe2;
+}
+
+.skill-range-bar {
+    height: 3px;
+    background: linear-gradient(to right,#5bdfce 0%,#20b8cf 100%)
+}
